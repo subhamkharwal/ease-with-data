@@ -1,0 +1,9 @@
+store_id,store_name,address,city,state,zip_code,phone_number
+S000,Not Applicable,Not Applicable,Not Applicable,NA,00000,000-000-0000
+S001,Pet House TX,123 Main St,Anytown,TX,12345,555-555-5555
+S002,Pet House NY,456 Elm St,Anothertown,NY,67890,555-555-5556
+S003,Pet House CA,789 Oak Ave,Bigcity,CA,09876,555-555-5557
+S004,Pet House FL,321 Birch Blvd,Smallville,FL,55555,555-555-5558
+S005,Pet House IL,654 Pine St,Busytown,IL,11111,555-555-5559
+S006,Pet House PA,987 Cedar Rd,Quietville,PA,22222,555-555-5560
+S007,Pet House AZ,246 Maple St,Anywhere,AZ,33333,555-555-5561
