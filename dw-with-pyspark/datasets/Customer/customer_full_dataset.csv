@@ -1,0 +1,20 @@
+customer_id,first_name,last_name,address,city,state,zip_code,phone_number,email,date_of_birth,plan_type
+C000,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NA,00000,000-000-0000,na@na.com,01/01/1990,NA
+C001,John,Smith,123 Main St,Anytown,TX,12345,555-555-5555,johnsmith@email.com,01/01/1980,P
+C002,Jane,Doe,456 Elm St,Anothertown,NY,67890,555-555-5556,janedoe@email.com,02/02/1985,G
+C003,Bob,Johnson,789 Oak Ave,Bigcity,CA,09876,555-555-5557,bobjohnson@email.com,03/03/1990,
+C004,Samantha,Williams,321 Birch Blvd,Smallville,FL,55555,555-555-5558,samanthawilliams@email.com,04/04/1995,G
+C005,Michael,Jones,654 Pine St,Busytown,IL,11111,555-555-5559,michaeljones@email.com,05/05/2000,P
+C006,Emily,Brown,987 Cedar Rd,Quietville,PA,22222,555-555-5560,emilybrown@email.com,06/06/2005,D
+C007,Jacob,Davis,246 Maple St,Anywhere,AZ,33333,555-555-5561,jacobdavis@email.com,07/07/1980,D
+C008,Nicholas,Miller,321 Oak St,Bigcity,CA,09876,555-555-5562,nicholasmiller@email.com,08/08/1985,
+C009,Jessica,Moore,654 Elm St,Smallville,FL,55555,555-555-5563,jessicamoore@email.com,09/09/1990,
+C010,Matthew,Taylor,987 Pine St,Busytown,IL,11111,555-555-5564,matthewtaylor@email.com,10/10/1995,
+C011,Daniel,Anderson,246 Cedar Rd,Quietville,PA,22222,555-555-5565,danielanderson@email.com,11/11/2000,P
+C012,Elizabeth,Thomas,321 Maple St,Anywhere,AZ,33333,555-555-5566,elizabeththomas@email.com,12/12/2005,G
+C013,Austin,Jackson,654 Oak St,Bigcity,CA,09876,555-555-5567,austinjackson@email.com,01/01/1980,D
+C014,Madison,White,987 Elm St,Smallville,FL,55555,555-555-5568,madisonwhite@email.com,02/02/1985,G
+C015,Brandon,Harris,246 Pine St,Busytown,IL,11111,555-555-5569,brandonharris@email.com,03/03/1990,P
+C016,Avery,Martin,321 Cedar Rd,Quietville,PA,22222,555-555-5570,averymartin@email.com,04/04/1995,D
+C017,Evelyn,Thompson,654 Maple St,Anywhere,AZ,33333,555-555-5571,evelynthompson@email.com,05/05/2000,P
+C018,Abigail,Garcia,987 Oak St,Bigcity,CA,09876,555-555-5572,abigailgar@email.com,21/07/2000,

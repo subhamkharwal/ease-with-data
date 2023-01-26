@@ -1,0 +1,16 @@
+product_id,product_name,brand,type,flavor,size,price,quantity,expiration_date,image_url
+P000,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,0,0,0,1990-01-01,NA
+P001,Purina Pro Plan,Purina,Dry,Chicken,5 lbs,$20,50,2024-12-31,https://www.example.com/purina-pro-plan-chicken.jpg
+P002,Hill's Science Diet,Hill's,Dry,Beef,15 lbs,$50,25,2024-12-31,https://www.example.com/hills-science-diet-beef.jpg
+P003,Iams ProActive Health,Iams,Dry,Lamb,10 lbs,$40,35,2024-12-31,https://www.example.com/iams-proactive-health-lamb.jpg
+P004,Blue Buffalo Wilderness,Blue Buffalo,Wet,Salmon,12 cans,$30,40,2024-12-31,https://www.example.com/blue-buffalo-wilderness-salmon.jpg
+P005,Royal Canin,Royal Canin,Dry,Fish,20 lbs,$60,20,2024-12-31,https://www.example.com/royal-canin-fish.jpg
+P006,Wellness Complete Health,Wellness,Wet,Turkey,24 cans,$40,30,2024-12-31,https://www.example.com/wellness-complete-health-turkey.jpg
+P007,Merrick Grain Free,Merrick,Dry,Duck,15 lbs,$50,25,2024-12-31,https://www.example.com/merrick-grain-free-duck.jpg
+P008,Nature's Variety Instinct,Nature's Variety,Wet,Rabbit,12 cans,$30,40,2024-12-31,https://www.example.com/natures-variety-instinct-rabbit.jpg
+P009,Canidae Grain Free Pure,Canidae,Dry,Bison,20 lbs,$60,20,2024-12-31,https://www.example.com/canidae-grain-free-pure-bison.jpg
+P010,Taste of the Wild,Taste of the Wild,Wet,Venison,24 cans,$40,30,2024-12-31,https://www.example.com/taste-of-the-wild-venison.jpg
+P011,Hill's Science Diet,Hill's,Dry,Feline,3 lbs,$15,50,2024-12-31,https://www.example.com/hills-science-diet-feline.jpg
+P012,Purina Pro Plan,Purina,Wet,Feline,24 cans,$40,30,2024-12-31,https://www.example.com/purina-pro-plan-feline.jpg
+P013,Iams ProActive Health,Iams,Dry,Canine,5 lbs,$20,50,2024-12-31,https://www.example.com/iams-proactive-health-canine.jpg
+P014,Blue Buffalo Wilderness,Blue Buffalo,Wet,Canine,12 cans,$30,40,2024-12-31,https://www.example.com/blue-buffalo-wilderness-canine.jpg
