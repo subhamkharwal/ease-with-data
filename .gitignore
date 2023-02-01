@@ -1,3 +1,5 @@
 .ipynb*
 .idea/*
 _*
+metastore_db/*
+spark-warehouse/*
