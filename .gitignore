@@ -1,5 +1,6 @@
 .ipynb*
 .idea/*
 _*
-metastore_db/*
-spark-warehouse/*
+dw-with-pyspark/metastore_db/*
+dw-with-pyspark/spark-warehouse/*
+dw-with-pyspark/derby/*
