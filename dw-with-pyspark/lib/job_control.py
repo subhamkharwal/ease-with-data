@@ -33,11 +33,16 @@ def get_max_timestamp(spark: SparkSession, schema_name: str, table_name: str) ->
         df = spark.read.table("edw.job_control")
         
         # Get the max_timestamp, if null then return default low value
-        df_max_timestamp = df.groupBy(lit(schema_name), lit(table_name)).agg(max("max_timestamp"))
+        df_max_timestamp = df.where(f"schema_name = '{schema_name}' and table_name = '{table_name}'") \
+            .groupBy("schema_name", "table_name").agg(max("max_timestamp").alias("max_timestamp"))
         
-        return str(df_max_timestamp.take(1)[0][2])
+        # Check if data present or not
+        if df_max_timestamp.count() > 0: 
+            return str(df_max_timestamp.take(1)[0][2])
+        else:
+            return "1900-01-01 00:00:00.000000"
     except Exception as e:
-        return "1900-01-00 00:00:00.000000"
+        return "1900-00-00 00:00:00.000000"
     
 
 # Remove table data for full loads    
