@@ -53,7 +53,7 @@ def delete_log(spark: SparkSession, schema_name: str, table_name: str) -> bool:
     except Exception as e:
         return False
     
-
+# Trunccate the logs table completely
 def truncate_logs(spark: SparkSession, schema_name: str, table_name: str) -> bool:
     try:
         # Read Delta table
