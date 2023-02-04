@@ -42,7 +42,7 @@ def get_max_timestamp(spark: SparkSession, schema_name: str, table_name: str) ->
         else:
             return "1900-01-01 00:00:00.000000"
     except Exception as e:
-        return "1900-00-00 00:00:00.000000"
+        return None
     
 
 # Remove table data for full loads    

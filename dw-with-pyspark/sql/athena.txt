@@ -1,0 +1,30 @@
+-- DATE LANDING
+CREATE EXTERNAL TABLE edw_ld.dim_date_ld (
+	date string,
+	day string,
+	month string,
+	year string,
+	day_of_month string,
+	insert_dt timestamp
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe'
+STORED AS INPUTFORMAT 'org.apache.hadoop.hive.ql.io.SymlinkTextInputFormat'
+OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION 's3://easewithdata/dw-with-pyspark/warehouse/edw_ld.db/dim_date_ld/_symlink_format_manifest/'
+;
+
+-- DATE STAGING
+CREATE EXTERNAL TABLE edw_stg.dim_date_stg (
+	date date,
+	day int,
+	month int,
+	year int,
+	day_of_month string,
+	insert_dt timestamp,
+	update_dt timestamp
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe'
+STORED AS INPUTFORMAT 'org.apache.hadoop.hive.ql.io.SymlinkTextInputFormat'
+OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION 's3://easewithdata/dw-with-pyspark/warehouse/edw_stg.db/dim_date_stg/_symlink_format_manifest/'
+;
