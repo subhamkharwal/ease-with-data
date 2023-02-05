@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
-from pyspark.sql import SparkSession, DataFrame
+from pyspark.sql import SparkSession, DataFrame, udf
+from pyspark.sql.types import StringType
 
 # Date Utility to generate Date source data for next 1 year
 def date_data(start_run_dt: str = '20230101', num_years: int = 1) -> list:
@@ -29,3 +30,4 @@ def get_string_cols(spark: SparkSession, df: DataFrame) -> list:
     for col in df.columns:
         _col_list.append(f"cast({col} as string) as {col}")
     return _col_list
+
