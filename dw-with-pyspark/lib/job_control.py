@@ -4,12 +4,12 @@ from pyspark.sql.types import TimestampType
 from delta import DeltaTable
 
 # Insert log in job_control table 
-def insert_log(spark: SparkSession, schema_name: str, table_name: str, max_timestamp:str) -> bool:
+def insert_log(spark: SparkSession, schema_name: str, table_name: str, max_timestamp:str, rundate: str) -> bool:
     try:
         _data = [
-            [schema_name, table_name, max_timestamp]
+            [schema_name, table_name, max_timestamp, rundate]
         ]
-        _cols = ["schema_name", "table_name", "max_timestamp"]
+        _cols = ["schema_name", "table_name", "max_timestamp", "rundate"]
         
         # Create Dataframe
         df_raw = spark.createDataFrame(data = _data, schema = _cols)
@@ -17,6 +17,7 @@ def insert_log(spark: SparkSession, schema_name: str, table_name: str, max_times
         # Transform the timestamps
         df_processed = df_raw \
             .withColumn("max_timestamp", to_timestamp(lit(max_timestamp))) \
+            .withColumn("rundate", lit(rundate)) \
             .withColumn("insert_dt", current_timestamp())
         
         # Write into JOB_CONTROL table
