@@ -1,0 +1,9 @@
+store_id,store_name,address,city,state,zip_code,phone_number
+S000,Not Applicable,Not Applicable,Not Applicable,NA,00000,91-00000-00000
+S001,Pet House KA,123 Main St,Anytown,KA,12345,91-88929-88888
+S002,Pet House MH,456 Elm St,Anothertown,MH,67890,91-99999-99999
+S003,Pet House TN,789 Oak Ave,Bigcity,TN,09876,91-77777-77777
+S004,Pet House OR,321 Birch Blvd,Small Town,OR,76684,91-88822-00000
+S005,Pet House WB,654 Pine St,Busytown,WB,11111,91-00002-22222
+S006,Pet House JK,987 Cedar Rd,Hill Town,JK,22222,91-33330-33333
+S007,Pet House GJ,246 Maple St,Anywhere,GJ,33333,91-55555-61000
