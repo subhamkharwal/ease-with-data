@@ -1,0 +1,4 @@
+product_id,product_name,brand,type,flavor,size,price,quantity,expiration_date,image_url
+P002,Hill's Science Diet,Hill's,Dry,Beef,25 kgs,Rs 70,25,31-12-2024,https://www.example.com/hills-science-diet-beef.jpg
+P003,Iams ProActive Health,Iams,Dry,Lamb,15 kgs,Rs 80,35,31-12-2024,https://www.example.com/iams-proactive-health-lamb.jpg
+P015,Blue Buffalo Wilderness Pro,Blue Buffalo,Wet,Canine,1 cans,Rs 30,40,31-12-2024,https://www.example.com/blue-buffalo-wilderness-canine.jpg
