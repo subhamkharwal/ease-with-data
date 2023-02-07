@@ -60,7 +60,7 @@ def delete_log(spark: SparkSession, schema_name: str, table_name: str) -> bool:
         return False
     
 # Trunccate the logs table completely
-def truncate_logs(spark: SparkSession, schema_name: str, table_name: str) -> bool:
+def truncate_logs(spark: SparkSession) -> bool:
     try:
         # Read Delta table
         dt = DeltaTable.forName(spark, "edw.job_control")
