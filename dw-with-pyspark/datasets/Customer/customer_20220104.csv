@@ -1,0 +1,3 @@
+customer_id,name,address,city,state,zip_code,phone_number,email,date_of_birth,plan_type
+C002,Meena Lodha,456 Elm St,Anothertown,GJ,67890,91-00000-00021,meena@email.com,02-02-1985,G
+C019,Subham Kumar,20 Main ST,Small Town,KA,8899,91-00000-00019,subhamkuamr@email.com,26-07-2000,
